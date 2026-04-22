@@ -7,7 +7,10 @@ readme = "README.md"
 license = "MIT"
 authors = [{ name = "Matheus Roks", email = "seu@email.com" }]
 requires-python = ">=3.13"
-dependencies = ["python-dotenv>=1.1.0"]
+dependencies = [
+    "python-dotenv>=1.1.0",
+    "rich>=15.0.0",
+]
 
 [project.urls]
 Homepage = "https://www.otaviomiranda.com.br/"
